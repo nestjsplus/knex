@@ -23,7 +23,7 @@
 
 This module provides a thin wrapper around [Knex.js](http://knexjs.org).  Knex.js is primarily a *Query Builder* that works with multiple databases.
 
-The module was generated using [@nestjsplus/dyn-schematics](https://github.com/nestjsplus/dyn-schematics), a schematics package for NestJS that generates *dynamic modules* using the pattern [described here](https://dev.to/nestjs/advanced-nestjs-how-to-build-completely-dynamic-nestjs-modules-1370).
+The module was generated using [@nestjsplus/dyn-schematics](https://github.com/nestjsplus/dyn-schematics), a schematics package for NestJS that generates *dynamic modules* using the pattern [described here](https://dev.to/nestjs/advanced-nestjs-how-to-build-completely-dynamic-nestjs-modules-1370). There's a complete tutorial on [using the custom schematics here](https://dev.to/nestjs/build-a-nestjs-module-for-knex-js-or-other-resource-based-libraries-in-5-minutes-12an).
 
 ### Installation
 
@@ -120,7 +120,10 @@ See [knex-cats](https://github.com/nestjsplus/knex-cats) for a full example. It 
 
 ### About @nestjsplus/dyn-schematics
 
-[Nest Dynamic Package Generator Schematics](https://github.com/nestjsplus/dyn-schematics) generates a starter template for building NestJS dynamic packages.  It uses the `@nestjs/cli` core package, and provides customized schematics for generating modular NestJS applications.  See [here](https://github.com/nestjsplus/dyn-schematics) for the full set of available schematics, and documentation.
+[Nest Dynamic Package Generator Schematics](https://github.com/nestjsplus/dyn-schematics) generates a starter template for building NestJS dynamic packages.  It uses the `@nestjs/cli` core package, and provides customized schematics for generating modular NestJS applications.  See [here](https://github.com/nestjsplus/dyn-schematics) for the full set of available schematics, and documentation.  Read these articles for more background:
+
+- [Advanced NestJS: How to build completely dynamic NestJS modules](https://dev.to/nestjs/advanced-nestjs-how-to-build-completely-dynamic-nestjs-modules-1370) - covers the design pattern used by this module
+- [Build a NestJS Module for Knex.js (or other resource-based libraries) in 5 Minutes](https://dev.to/nestjs/build-a-nestjs-module-for-knex-js-or-other-resource-based-libraries-in-5-minutes-12an) - covers a custom schematic that can be used to generate a module template based on this pattern
 
 ### Change Log
 
