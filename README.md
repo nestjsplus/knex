@@ -35,7 +35,7 @@ npm install @nestjsplus/knex
 
 ### Quick Start
 
-To configure your DB connection, import the `KnexModule` module using the familiar `register()` / `registerAsync()` pattern. See the [example repo](https://github.com/nestjsplus/knex-cats) for an example. Basically, you configure the module with a Knes.js `connection` object, which maps directly to the connection options [in the Knex.js docs](http://knexjs.org/#Installation-client).
+To configure your DB connection, import the `KnexModule` module using the familiar `register()` / `registerAsync()` pattern. See the [example repo](https://github.com/nestjsplus/knex-cats) for an example. Basically, you configure the module with a Knex.js `connection` object, which maps directly to the connection options [in the Knex.js docs](http://knexjs.org/#Installation-client).
 
 Once configured, inject the `SINGLETON` knex api interface object into any service using the `KNEX_CONNECTION` injection token.
 
