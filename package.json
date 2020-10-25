@@ -26,8 +26,8 @@
     "@nestjs/common": "^6.0.0"
   },
   "dependencies": {
-    "knex": "^0.19.4",
-    "pg": "^7.12.1"
+    "knex": "^0.21.6",
+    "pg": "^8.4.1"
   },
   "devDependencies": {
     "@nestjs/common": "^6.0.0",
