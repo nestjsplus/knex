@@ -1,9 +1,5 @@
-import {
-  KnexOptions,
-} from './knex-options.interface';
+import { KnexOptions } from './knex-options.interface';
 
 export interface KnexOptionsFactory {
-  createKnexOptions():
-    | Promise<KnexOptions>
-    | KnexOptions;
+  createKnexOptions(): Promise<KnexOptions> | KnexOptions;
 }
